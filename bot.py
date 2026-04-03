@@ -3,6 +3,7 @@ from discord import app_commands
 from discord.ext import commands
 import os
 
+print(os.listdir())
 TOKEN = os.getenv("TOKEN")
 
 # Role được phép
